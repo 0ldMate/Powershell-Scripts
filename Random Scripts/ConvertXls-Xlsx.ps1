@@ -1,3 +1,4 @@
+# Not written by me, can't remember the author
 $xlWorkbookDefault = 51
 $xlFixedFormat = $xlWorkbookDefault
 
