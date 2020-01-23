@@ -4,7 +4,7 @@ $xlFixedFormat = $xlWorkbookDefault
 
 $excel = New-Object -ComObject excel.application
 $excel.visible = $false
-$folderpath = "C:\Users\jheadrick\Mechellet\MMD Excel _FG Overseas_Electronic\*"
+$folderpath = "Path\*"
 $filetype ="*xls"
 Get-ChildItem -Path $folderpath -Include $filetype | 
 ForEach-Object `
