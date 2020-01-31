@@ -10,7 +10,7 @@ Import-Csv "$PSScriptRoot\Employee.csv" | ForEach-Object {
 $Name = $_.Name
 $Firstname = $Name.Split(" ")[0]
 $Surname = $Name.Split(" ")[1]
-$EmailAddress = "$Firstname" + ".$Surname" + "@Multigate.com.au"
+$EmailAddress = "$Firstname" + ".$Surname" + "@Company.com"
 $Title = $_.Title
 $CopyUser = $_.CopyUser
 $Description = $_.Title
